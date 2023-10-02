@@ -1,45 +1,66 @@
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: #ffdcc0; 
-    background-image: url(https://wallsneedlove.com/cdn/shop/products/w0263_1s_Nautical-Waves-Wallpaper-for-Walls-Waves-of-Chic_Repeating-Pattern-Sample-1.jpg?v=1604091534);
+
+{
     margin: 0;
+    paddin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-div {
-    background-color: rgba(23,23,23, .5);
-    backdrop-filter: blur(8px);
-    width: 350px;
-    height: 100vh;
-    padding: 60px;
+body{
+    min-height: 100vh;
+    background: url(https://www.decoratorsbest.com/cdn/shop/products/6841421987886_c65ac575-efe0-4268-852a-815f95a5c535.jpg?v=1693237557) no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
-h1 {
-    color:rgb(18, 179, 149);
-    font-family:"oswald";
-    margin: 0;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255,255,255, .2)
 }
 
-a{
-  color:aqua;  
-}
-p1{
-    color:rgb(147, 177, 166);
-    font-family:"oswald";
-
-}
-p2{
-    color:rgb(147, 177, 166);
-    font-family:"oswald";
-
-}
-img {
-    display: block;
-    height: 300px;
-    width: 300px;
+.header::before{
+    content: attr();
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255, .4), transparent);
+    transition: .5s;
 }
 
-a{
-    Padding-right: 150;
+.header:hover::before{
+    left: 100%;
+}
+
+.logo{
+    color:#fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color:#f00;
 }
