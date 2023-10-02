@@ -2,18 +2,15 @@
     box-sizing: border-box;
 }
 
-{
-    margin: 0;
-    paddin: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
-
 body{
     min-height: 100vh;
     background: url(https://www.decoratorsbest.com/cdn/shop/products/6841421987886_c65ac575-efe0-4268-852a-815f95a5c535.jpg?v=1693237557) no-repeat;
     background-size: cover;
     background-position: center; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
 .header{
@@ -22,7 +19,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: rgba(255,255,255,.1);
+    background: rgba(20, 19, 19, 0.396);
     display: flex;
     justify-content: space-between;
     align-items: center;
