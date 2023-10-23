@@ -1,0 +1,23 @@
+body{
+    background-color:#232323;
+}
+img{
+    width: 25%;
+    float:left;
+    padding-right: 15px;
+    padding-left: 300px;
+}
+
+h1{
+    color:white;
+    font-family: Arial;
+    font-size: 100px;
+    padding-left: 900px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+p{
+    color:white;
+    font-family: Arial;
+    padding-right: 150px;
+}

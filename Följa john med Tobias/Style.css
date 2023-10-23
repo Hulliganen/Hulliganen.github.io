@@ -1,0 +1,123 @@
+:root{
+    --aside-width: 15%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family: "comic sans ms";
+}
+
+aside{
+    background-color: #94aaf9
+
+}
+
+.aside__wrapper{
+    position: fixed;
+    width: 15%;
+    width: var(--aside-width);
+}
+
+.header {
+    padding: 3em 0;
+}
+
+.header__logo {
+    background-color: bisque;
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(https://64.media.tumblr.com/19a29cc5bf7513ba881746d09d1f2383/tumblr_phrlfvqSD91rej7jw_540.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header__title{
+    text-align: center;
+    margin-top: auto;
+    padding: 0em 0;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.nav__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link{
+    text-align: center;
+}
+
+.nav__link + *{
+    padding-top: 2.5em;
+    position: relative;
+}
+
+.nav__link + *::before{
+        position: absolute;
+        content: "";
+        width: 35%;
+        height: 2.5px;
+        background-color: black;
+        top: 1.25em;
+        transform: translateX(-3.3%);
+}
+
+.nav__links a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Concert One', sans-serif;
+    font-size: 40px;
+}
+
+.main__heading{
+    font-size: 96px;
+    text-align: center;
+}
+
+.main__text{
+    font-size: 24px;
+}
+
+.main__text--center{
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+}
+
+.main__content{
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+}
+
+.main__content > * {
+    flex: 1 1 0;
+}
+
+.main__frame{
+    display: flex;
+    background-color: gray;
+    padding: 4em;
+    gap: 4em;
+}
+
+.main__frame img{
+    width: calc(100% / 3 - 4em)
+}
