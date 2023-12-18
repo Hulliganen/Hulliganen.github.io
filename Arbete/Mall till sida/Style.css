@@ -1,0 +1,139 @@
+body{
+    margin: 0;  
+    background-image: url(https://images.unsplash.com/photo-1615800098779-1be32e60cca3?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.brodtext{
+    text-align: center;
+}
+
+.rubrikCRX{
+    /* text-align: center; */
+}
+
+.crxtext{
+    /* float: right; */
+}
+
+.crxbild{
+    /* float: left; */
+    /* width: 40%; */
+}
+
+.rubrikNISSAN{
+
+}
+
+.bluebirdtxt{
+
+}
+
+.bluebirdimg{
+    float: right;
+    width: 40%;
+}
+
+.rubkirMR2{
+
+}
+
+.toyotatxt{
+
+}
+
+.mr2img{
+    float: left;
+    width: 40%;
+}
+
+.rubrikXT{
+
+}
+
+.subarutxt1{
+
+}
+.subarutxt2{
+
+}
+
+.subaruimg{
+    float: right;
+    width: 40%;
+}
+
+
+h1{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 1000%;
+    text-align: center;
+}
+
+h2{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 800%;
+    /* text-align: center; */
+    margin: 0;
+}
+
+p{
+    font-family: 'Old Standard TT', serif;
+    font-size: 150%;
+}
+
+.honda {
+    /* background-color: red; */
+    display: grid;
+    grid: auto / auto auto auto;
+}
+
+.honda .crxbild {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+.honda .rubrikCRX {
+    grid-row: 1;
+    grid-column: 2 / -1;
+    font-size: 600%;
+    transform: translateX(1ch);
+    letter-spacing: 10px;
+}
+
+.honda .crxtext {
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    line-height: 1.6;
+}
+
+.toyota {
+    /* background-color: red; */
+    display: grid;
+    grid: auto / auto auto auto;
+}
+
+.toyota .mr2img {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+.toyota .rubrikMR2 {
+    grid-row: 1;
+    grid-column: 2 / -1;
+    font-size: 600%;
+    transform: translateX(1ch);
+    letter-spacing: 10px;
+}
+
+.toyota .toyotatxt {
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    line-height: 1.6;
+}
