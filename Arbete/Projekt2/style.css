@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50vh;
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    background-color: blue;
+    padding: 0 2em;
+}
+
+nav > * {
+    background-image: linear-gradient(45deg, white, black);
+    flex: 1 1 0;
+}
+
+.nav__links {
+    display: flex;
+    
+}
+
+.nav__link{
+    margin-top: 25px;
+    margin-right: 25px;
+}
